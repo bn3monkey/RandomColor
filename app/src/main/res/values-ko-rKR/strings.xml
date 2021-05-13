@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">무작위 색깔놀이</string>
+    <string name="shuffle">섞기</string>
+    <string name="color_button">색깔 버튼</string>
+    <string name="noncolor_button">색깔 아닌 버튼</string>
+    <string name="guide">모든 색깔 버튼이 같은 색이 되면, 승리합니다.</string>
+    <string name="win">이겼습니다!!</string>
+</resources>

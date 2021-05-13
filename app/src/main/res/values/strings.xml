@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Random Game</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="color_button">Color Button</string>
+    <string name="noncolor_button">Non-Color Button</string>
+    <string name="guide">If All Color Button has same color, You win!</string>
+    <string name="win">You Win!!</string>
+</resources>
