@@ -82,7 +82,7 @@ class GameColor {
         }
 
         val chosenButtonColor = buttonColors[type]!!
-        chosenButtonColor[ordinal] += 2
+        chosenButtonColor[ordinal] += 1
         chosenButtonColor[ordinal] %= range
     }
 

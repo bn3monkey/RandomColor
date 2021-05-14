@@ -37,7 +37,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/red_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/green_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/blue_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -82,13 +82,14 @@
         app:layout_constraintTop_toTopOf="@+id/h_guideline_2"
         app:layout_constraintWidth_percent="0.3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/noncolor_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#222222"
 
         android:text="@string/noncolor_button"
+        android:textColor="@android:color/white"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="w,1:1"
@@ -97,13 +98,14 @@
         app:layout_constraintTop_toTopOf="@+id/h_guideline_2"
         app:layout_constraintWidth_percent="0.3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/shuffle"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#555555"
 
         android:text="@string/shuffle"
+        android:textColor="@android:color/white"
 
         app:layout_constraintBottom_toTopOf="@+id/h_guideline_2"
         app:layout_constraintDimensionRatio="w,1:1"

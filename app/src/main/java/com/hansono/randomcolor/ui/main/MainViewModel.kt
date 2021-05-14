@@ -28,7 +28,13 @@ class MainViewModel : ViewModel() {
     {
         viewModelScope.launch(Dispatchers.Default) {
             gameColor.refresh()
+            val redColor = gameColor.get(GameColor.Type.Red).toArgb()
+            val greenColor = gameColor.get(GameColor.Type.Green).toArgb()
+            val blueColor = gameColor.get(GameColor.Type.Blue).toArgb()
             withContext(Dispatchers.Main) {
+                view.redButton.setBackgroundColor(redColor)
+                view.greenButton.setBackgroundColor(greenColor)
+                view.blueButton.setBackgroundColor(blueColor)
                 view.guide.text = view.context?.getString(R.string.guide)
                 judge(view)
             }
